@@ -1,0 +1,48 @@
+﻿Compilación iniciada a las 10/06/2015 07:28:06 p. m..
+     1>Proyecto "C:\Users\Gerardo\Documents\Visual Studio 2013\Projects\Proyecto_Embarcacion_Enviar\Proyecto_Embarcacion\Proyecto_Embarcacion.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Proyecto_Embarcacion.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Proyecto_EmbarcacionDlg.cpp
+         Proyecto_EmbarcacionDlg.cpp
+     1>c:\users\gerardo\documents\visual studio 2013\projects\proyecto_embarcacion_enviar\proyecto_embarcacion\proyecto_embarcaciondlg.cpp(13): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+     1>c:\users\gerardo\documents\visual studio 2013\projects\proyecto_embarcacion_enviar\proyecto_embarcacion\proyecto_embarcaciondlg.cpp(14): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+     1>c:\users\gerardo\documents\visual studio 2013\projects\proyecto_embarcacion_enviar\proyecto_embarcacion\proyecto_embarcaciondlg.cpp(156): warning C4305: 'inicializando' : truncamiento de 'double' a 'float'
+     1>c:\users\gerardo\documents\visual studio 2013\projects\proyecto_embarcacion_enviar\proyecto_embarcacion\proyecto_embarcaciondlg.cpp(257): warning C4244: 'argumento' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>c:\users\gerardo\documents\visual studio 2013\projects\proyecto_embarcacion_enviar\proyecto_embarcacion\proyecto_embarcaciondlg.cpp(258): warning C4244: 'argumento' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>c:\users\gerardo\documents\visual studio 2013\projects\proyecto_embarcacion_enviar\proyecto_embarcacion\proyecto_embarcaciondlg.cpp(261): warning C4244: 'argumento' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>c:\users\gerardo\documents\visual studio 2013\projects\proyecto_embarcacion_enviar\proyecto_embarcacion\proyecto_embarcaciondlg.cpp(262): warning C4244: 'argumento' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>c:\users\gerardo\documents\visual studio 2013\projects\proyecto_embarcacion_enviar\proyecto_embarcacion\proyecto_embarcaciondlg.cpp(265): warning C4244: 'argumento' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>c:\users\gerardo\documents\visual studio 2013\projects\proyecto_embarcacion_enviar\proyecto_embarcacion\proyecto_embarcaciondlg.cpp(266): warning C4244: 'argumento' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>c:\users\gerardo\documents\visual studio 2013\projects\proyecto_embarcacion_enviar\proyecto_embarcacion\proyecto_embarcaciondlg.cpp(269): warning C4244: 'argumento' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>c:\users\gerardo\documents\visual studio 2013\projects\proyecto_embarcacion_enviar\proyecto_embarcacion\proyecto_embarcaciondlg.cpp(270): warning C4244: 'argumento' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>c:\users\gerardo\documents\visual studio 2013\projects\proyecto_embarcacion_enviar\proyecto_embarcacion\proyecto_embarcaciondlg.cpp(399): warning C4553: '==' : el operador no tiene efecto; ¿ha pensado en '='?
+     1>c:\users\gerardo\documents\visual studio 2013\projects\proyecto_embarcacion_enviar\proyecto_embarcacion\proyecto_embarcaciondlg.cpp(409): warning C4244: 'argumento' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>c:\users\gerardo\documents\visual studio 2013\projects\proyecto_embarcacion_enviar\proyecto_embarcacion\proyecto_embarcaciondlg.cpp(419): warning C4244: 'argumento' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>c:\users\gerardo\documents\visual studio 2013\projects\proyecto_embarcacion_enviar\proyecto_embarcacion\proyecto_embarcaciondlg.cpp(448): warning C4244: 'argumento' : conversión de 'LONG' a 'float'; posible pérdida de datos
+     1>c:\users\gerardo\documents\visual studio 2013\projects\proyecto_embarcacion_enviar\proyecto_embarcacion\proyecto_embarcaciondlg.cpp(453): warning C4244: 'argumento' : conversión de 'LONG' a 'float'; posible pérdida de datos
+     1>c:\users\gerardo\documents\visual studio 2013\projects\proyecto_embarcacion_enviar\proyecto_embarcacion\proyecto_embarcaciondlg.cpp(475): warning C4244: 'argumento' : conversión de 'LONG' a 'float'; posible pérdida de datos
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Gerardo\Documents\Visual Studio 2013\Projects\Proyecto_Embarcacion_Enviar\Debug\Proyecto_Embarcacion.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\Gerardo\Documents\Visual Studio 2013\Projects\Proyecto_Embarcacion_Enviar\Debug\Proyecto_Embarcacion.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Gerardo\Documents\Visual Studio 2013\Projects\Proyecto_Embarcacion_Enviar\Debug\Proyecto_Embarcacion.lib" /MACHINE:X86 Debug\Proyecto_Embarcacion.res
+         Debug\Bezier.obj
+         Debug\ColorRGB.obj
+         Debug\Foco.obj
+         Debug\Linea.obj
+         Debug\Lista.obj
+         Debug\ListaPuerto.obj
+         Debug\Matriz3D.obj
+         Debug\Nodo.obj
+         Debug\Objeto3D.obj
+         Debug\Proyecto_Embarcacion.obj
+         Debug\Proyecto_EmbarcacionDlg.obj
+         Debug\Puerto.obj
+         Debug\Punto.obj
+         Debug\stdafx.obj
+         Debug\Superficie.obj
+         Debug\Vector.obj
+         Debug\Ventana.obj
+         Debug\Vertice.obj
+         Proyecto_Embarcacion.vcxproj -> C:\Users\Gerardo\Documents\Visual Studio 2013\Projects\Proyecto_Embarcacion_Enviar\Debug\Proyecto_Embarcacion.exe
+     1>Compilación del proyecto terminada "C:\Users\Gerardo\Documents\Visual Studio 2013\Projects\Proyecto_Embarcacion_Enviar\Proyecto_Embarcacion\Proyecto_Embarcacion.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:00.62

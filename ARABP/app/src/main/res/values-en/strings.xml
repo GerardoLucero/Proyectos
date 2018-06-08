@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Physight</string>
+
+    <string name="rfc">FTR</string>
+    <string name="welcome">Welcome</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="register">Sign In</string>
+    <string name="date">Date</string>
+    <string name="time_start">Time Start</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="zone">Zone: </string>
+    <string name="sample">Sample: </string>
+    <string name="total_whales">Total whales</string>
+    <string name="fotoI">First Photo</string>
+    <string name="fotoF">Last Photo</string>
+    <string name="notes">Notes</string>
+    <string name="time_end">End Time</string>
+
+
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="rememberme">Remember me</string>
+    <string name="title_activity_whales">Summary</string>
+
+    <string name="summary">Summary</string>
+    <string name="web">physalus.esy.es/Codigo/Principales/Principal.php</string>
+
+    <string name="new_sight">New Sight</string>
+    <string name="reports">Reports</string>
+    <string name="localitation">Map</string>
+    <string name="settings">Settings</string>
+    <string name="log_out">Log Out</string>
+
+    <string name="biopsy">Biopsy</string>
+    <string name="skin">Skin</string>
+    <string name="feses">Feses</string>
+
+    <string name="preferences">Preferences</string>
+    <string name="networkU">Network Usage</string>
+    <string name="gps">Automatic GPS</string>
+    <string name="gpsD">Take your current position</string>
+    <string name="hora">Automatic Time</string>
+    <string name="horaD">Take your current time</string>
+    <string name="Fecha">Automatic Date</string>
+    <string name="fechaD">Take your current Date</string>
+    <string name="datos">Use mobil data</string>
+
+    <string name="iConnection">Internet Connection</string>
+    <string name="fillBlanks">Fill the blanks</string>
+    <string name="added">Added</string>
+    <string name="error">Error</string>
+    <string name="noInternet">There is no Internet connection,locat data base will be used, synchronize later</string>
+    <string name="noConexion">There is no Internet connection</string>
+
+    <string name="noUser">Invalid FTR/Password</string>
+    <string name="rfcUsed">FTR all ready used</string>
+    <string name="passMatch">Password does not match</string>
+    <string name="vacio">Empty</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="delete">Would you like to delete it?</string>
+    <string name="borrar">Yes</string>
+
+    <string name="sur">South</string>
+    <string name="norte">North</string>
+    <string name="centro">Center</string>
+    <string name="unknow">Unknow zone</string>
+
+    <string name="numerpicker">Amount</string>
+    <string name="time">Time</string>
+
+    <string name="Syncn">Syncing</string>
+    <string name="Syncn2">Synchronized</string>
+    <string name="wait">Please wait</string>
+    <string name="fail">Something went wrong</string>
+    <string name="erased">Deleted</string>
+
+
+    <string name="home1">System for the caputure of sights</string>
+    <string name="part_a">Welcome %1$s</string>
+    <string name="part_b">Total Sights %1$s</string>
+</resources>

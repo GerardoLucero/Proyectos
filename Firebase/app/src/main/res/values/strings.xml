@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Firebase</string>
+    <string name="txtBtnSend">Enviar</string>
+</resources>

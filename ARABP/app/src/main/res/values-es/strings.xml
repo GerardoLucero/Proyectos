@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Physight</string>
+
+    <string name="rfc">RFC</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="password">Contraseña</string>
+    <string name="log_in">Iniciar sesión</string>
+    <string name="register">Registrarse</string>
+    <string name="date">Fecha</string>
+    <string name="time_start">Hora inicio</string>
+    <string name="latitude">Latitud</string>
+    <string name="longitude">Longitud</string>
+    <string name="zone">Zona: </string>
+    <string name="sample">Muestra: </string>
+    <string name="total_whales">Cantidad de ballenas</string>
+    <string name="fotoI">Foto inicial</string>
+    <string name="fotoF">Foto final</string>
+    <string name="notes">Observaciones</string>
+    <string name="time_end">Hora Final</string>
+
+
+    <string name="name">Nombre</string>
+    <string name="surname">Apellidos</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="rememberme">Recordar cuenta</string>
+    <string name="title_activity_whales">Physight</string>
+
+    <string name="summary">Resumen</string>
+    <string name="web">physalus.esy.es/Codigo/Principales/Principal.php</string>
+
+    <string name="new_sight">Nuevo Avistamiento</string>
+    <string name="reports">Reportes</string>
+    <string name="localitation">Mapa</string>
+    <string name="settings">Configuración</string>
+    <string name="log_out">Cerrar sesión</string>
+
+    <string name="biopsy">Biopsia</string>
+    <string name="skin">Piel</string>
+    <string name="feses">heses</string>
+
+    <string name="preferences">Preferencias</string>
+    <string name="networkU">Uso de red</string>
+    <string name="gps">GPS automático</string>
+    <string name="gpsD">Permite utilizar el gps del celular para tomar las coordenadas</string>
+    <string name="hora">Hora automática</string>
+    <string name="horaD">Permitir utilizar la hora acutal del teléfono</string>
+    <string name="Fecha">Fecha automática</string>
+    <string name="fechaD">Permitir utilizar la fecha acutal del teléfono</string>
+    <string name="datos">Utilizar datos moviles</string>
+
+
+    <string name="iConnection">Conexión de Internet</string>
+    <string name="fillBlanks">Llene los espacios en blanco</string>
+    <string name="added">Añadido</string>
+    <string name="error">Error</string>
+    <string name="noInternet">No hay Internet, se usará la base de datos local. Sincronize más tarde</string>
+    <string name="noConexion">No hay conexión a Internet</string>
+
+    <string name="noUser">Usuario y/o contraseña incorrectos</string>
+    <string name="rfcUsed">Ya existe ese RFC</string>
+    <string name="passMatch">No coinciden las contraseñas</string>
+    <string name="vacio">No hay registros</string>
+    <string name="action_settings">Configuración</string>
+
+    <string name="delete">¿Lo borramos?</string>
+    <string name="borrar">Si</string>
+
+    <string name="sur">Sur</string>
+    <string name="norte">Norte</string>
+    <string name="centro">Centro</string>
+    <string name="unknow">Coordenadas desconocidas</string>
+
+    <string name="numerpicker">Cantidad</string>
+    <string name="time">Hora</string>
+
+    <string name="Syncn">Sincronizando</string>
+    <string name="Syncn2">Sincronizado</string>
+    <string name="wait">Espere porfavor</string>
+    <string name="fail">Algo falló</string>
+    <string name="erased">Borrado</string>
+
+    <string name="home1">Sistema para Captura de Avistamiento</string>
+    <string name="part_a">Bienvenido %1$s</string>
+    <string name="part_b">No Avistamientos %1$s</string>
+</resources>

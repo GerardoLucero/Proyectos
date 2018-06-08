@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencias_principal"
+    android:background="#424757">
+    <PreferenceCategory
+        android:title="@string/preferences">
+        <CheckBoxPreference
+            android:key="gps"
+            android:title="@string/gps"
+            android:summary="@string/gpsD"
+            android:defaultValue="false"/>
+        <CheckBoxPreference
+            android:key="tiempo"
+            android:title="@string/hora"
+            android:summary="@string/horaD"
+            android:defaultValue="false"/>
+        <CheckBoxPreference
+            android:key="gps"
+            android:title="@string/date"
+            android:summary="@string/fechaD"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/networkU">
+        <CheckBoxPreference
+            android:key="datos"
+            android:title="@string/datos"
+            android:summary=""
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+</PreferenceScreen>

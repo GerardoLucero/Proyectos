@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".location">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="70dp" />
+        <Button
+            android:id="@+id/mylocation"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="My location"
+            android:textColor="#FF6A6A6A"
+            android:background="#b6b4b4" />
+
+        <Button
+            android:id="@+id/SendLocation"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Send location"
+            android:textColor="#FF6A6A6A"
+            android:background="#b6b4b4" />
+
+        <Button
+            android:id="@+id/CerrarSesion"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Cerrar Sesión"
+            android:textColor="#FF6A6A6A"
+            android:background="#b6b4b4" />
+    </LinearLayout>
+</RelativeLayout>

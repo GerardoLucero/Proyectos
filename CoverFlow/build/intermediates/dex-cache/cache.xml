@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gerardo\AndroidStudioProjects\CoverFlow\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b44095e69cad332c50d4bff47c69cc069dc07ad5">
+        <dex dex="C:\Users\Gerardo\AndroidStudioProjects\CoverFlow\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_9493bd2874f987e2136bf4fc6db0d2e19d6057a9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gerardo\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\Gerardo\AndroidStudioProjects\CoverFlow\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_86454f7a4d30a2c72dca077ca82c3033054d4d82\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gerardo\AndroidStudioProjects\CoverFlow\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="95197f94061d7df45f43bdf76bd34d46a91dcd31">
+        <dex dex="C:\Users\Gerardo\AndroidStudioProjects\CoverFlow\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0e4fb60374acffc3ac9f14401407041e7fa79698\classes.dex" />
+    </item>
+
+</items>

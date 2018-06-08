@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+  ConsoleApplication4.cpp
+c:\users\gerardo\documents\visual studio 2015\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(20): error C2131: la expresión no se evaluó como una constante
+  c:\users\gerardo\documents\visual studio 2015\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(20): note: el error se debió a argumentos no constantes o una referencia a un símbolo no constante
+  c:\users\gerardo\documents\visual studio 2015\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(20): note: consulte el uso de 'val'
+c:\users\gerardo\documents\visual studio 2015\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(23): error C3863: el tipo de matriz 'double [val]' no es asignable
+c:\users\gerardo\documents\visual studio 2015\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(28): error C2440: 'inicializando': no se puede realizar la conversión de 'double [val]' a 'int'
+  c:\users\gerardo\documents\visual studio 2015\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(28): note: No existe un contexto en el que sea posible realizar esta conversión
+c:\users\gerardo\documents\visual studio 2015\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(32): error C3863: el tipo de matriz 'double [val]' no es asignable
+c:\users\gerardo\documents\visual studio 2015\projects\consoleapplication4\consoleapplication4\consoleapplication4.cpp(35): error C3863: el tipo de matriz 'double [val]' no es asignable

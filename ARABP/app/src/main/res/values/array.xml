@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="muestras">
+        <item>@string/biopsy</item>
+        <item>@string/skin</item>
+        <item>@string/feses</item>
+    </string-array>
+
+    <string-array name="preservacion">
+        <item>Alcohol</item>
+        <item>Formol</item>
+    </string-array>
+</resources>

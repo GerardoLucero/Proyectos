@@ -1,0 +1,11 @@
+c:\users\gerardo\documents\visual studio 2015\Projects\Matrices\Matrices\bin\Debug\Matrices.exe.config
+c:\users\gerardo\documents\visual studio 2015\Projects\Matrices\Matrices\bin\Debug\Matrices.exe
+c:\users\gerardo\documents\visual studio 2015\Projects\Matrices\Matrices\bin\Debug\Matrices.pdb
+c:\users\gerardo\documents\visual studio 2015\Projects\Matrices\Matrices\bin\Debug\Matrices.xml
+c:\users\gerardo\documents\visual studio 2015\Projects\Matrices\Matrices\obj\Debug\Matrices.vbprojResolveAssemblyReference.cache
+c:\users\gerardo\documents\visual studio 2015\Projects\Matrices\Matrices\obj\Debug\Matrices.Form1.resources
+c:\users\gerardo\documents\visual studio 2015\Projects\Matrices\Matrices\obj\Debug\Matrices.Resources.resources
+c:\users\gerardo\documents\visual studio 2015\Projects\Matrices\Matrices\obj\Debug\Matrices.vbproj.GenerateResource.Cache
+c:\users\gerardo\documents\visual studio 2015\Projects\Matrices\Matrices\obj\Debug\Matrices.exe
+c:\users\gerardo\documents\visual studio 2015\Projects\Matrices\Matrices\obj\Debug\Matrices.xml
+c:\users\gerardo\documents\visual studio 2015\Projects\Matrices\Matrices\obj\Debug\Matrices.pdb

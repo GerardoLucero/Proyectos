@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.topitzin.arabp.Registro">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/name"
+                android:maxLength="30"
+                android:id="@+id/name"
+                android:layout_marginBottom="10dp"
+                android:inputType="textCapWords" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/surname"
+                android:maxLength="30"
+                android:id="@+id/surname"
+                android:layout_marginBottom="10dp"
+                android:inputType="textCapWords" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/rfc"
+                android:inputType="textCapCharacters"
+                android:maxLength="10"
+                android:id="@+id/RFC"
+                android:layout_below="@+id/scrollView2"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="10dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:maxLength="10"
+                android:id="@+id/password"
+                android:layout_marginBottom="10dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/confirm_password"
+                android:inputType="textPassword"
+                android:maxLength="10"
+                android:id="@+id/passwordC"
+                android:layout_marginBottom="10dp"/>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <ImageButton
+                    android:layout_width="59dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/checked"
+                    android:background="@drawable/redondo"
+                    android:layout_marginLeft="30dp"
+                    android:id="@+id/accept"
+                    android:scaleType="fitCenter" />
+
+                <Space
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent" />
+
+                <ImageButton
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/error"
+                    android:background="@drawable/redondo"
+                    android:id="@+id/cancel"
+                    android:scaleType="fitCenter" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

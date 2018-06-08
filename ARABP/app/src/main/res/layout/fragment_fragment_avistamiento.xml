@@ -1,0 +1,199 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.topitzin.arabp.FragmentAvistamiento">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:id="@+id/scrollView" >
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:hint="@string/date"
+                    android:focusable="False"
+                    android:paddingBottom="15dp"
+                    android:ems="10"
+                    android:id="@+id/Fecha"
+                    android:layout_weight="1.18" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="time"
+                    android:focusable="false"
+                    android:paddingBottom="15dp"
+                    android:ems="10"
+                    android:hint="@string/time_start"
+                    android:id="@+id/hora" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:paddingBottom="15dp"
+                android:ems="10"
+                android:id="@+id/Latitud" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:inputType="numberDecimal"
+                android:layout_marginBottom="15dp"
+                android:ems="10"
+                android:id="@+id/Longitud" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/zone"
+                    android:id="@+id/tv_zona" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_zona2" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/sample"
+                    android:id="@+id/tv_muestra" />
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:entries="@array/muestras"
+                    android:id="@+id/mue"
+                    android:spinnerMode="dropdown" />
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:entries="@array/preservacion"
+                    android:id="@+id/pres"
+                    android:spinnerMode="dropdown" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:paddingBottom="15dp"
+                android:inputType="number"
+                android:ems="10"
+                android:hint="@string/total_whales"
+                android:focusable="false"
+                android:id="@+id/NoIndividuos" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:layout_width="168dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:hint="@string/fotoI"
+                    android:ems="10"
+                    android:id="@+id/Foto1" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:hint="@string/fotoF"
+                    android:ems="10"
+                    android:id="@+id/FotoFinal" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:hint="@string/notes"
+                android:id="@+id/Observaciones" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:paddingBottom="15dp"
+                android:inputType="time"
+                android:ems="10"
+                android:hint="@string/time_end"
+                android:id="@+id/timeend" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/succesii"
+                android:background="@drawable/roundedbutton"
+                android:id="@+id/Guardar"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

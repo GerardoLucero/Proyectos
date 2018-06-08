@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.topitzin.arabp.Home">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/syncrhonize"
+        android:textColor="#55fdfdfd"
+        android:layout_marginBottom="101dp"
+        android:src="@drawable/clouds"
+        android:background="@drawable/roundedbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="@string/home1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:id="@+id/Bienvenido"
+            android:textSize="28sp"
+            android:hint="@string/home1"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="31dp"
+            android:id="@+id/Usuario"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:layout_below="@+id/Bienvenido"
+            android:layout_toEndOf="@+id/Usuario"
+            android:layout_marginStart="23dp"
+            android:editable="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:id="@+id/No"
+            android:textSize="20sp"
+            android:layout_below="@+id/Usuario"
+            android:layout_alignEnd="@+id/Usuario"
+            android:textAlignment="center"
+            android:editable="true"/>
+    </LinearLayout>
+
+</RelativeLayout>

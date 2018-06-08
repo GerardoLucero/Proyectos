@@ -1,0 +1,7 @@
+#Wed Nov 02 23:29:15 MST 2016
+base.0=C\:\\Users\\Gerardo\\AndroidStudioProjects\\CoverFlow\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_9493bd2874f987e2136bf4fc6db0d2e19d6057a9
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Gerardo\\AndroidStudioProjects\\CoverFlow\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_0e4fb60374acffc3ac9f14401407041e7fa79698\\classes.dex
+base.1=C\:\\Users\\Gerardo\\AndroidStudioProjects\\CoverFlow\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_0e4fb60374acffc3ac9f14401407041e7fa79698
+file.0=C\:\\Users\\Gerardo\\AndroidStudioProjects\\CoverFlow\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_9493bd2874f987e2136bf4fc6db0d2e19d6057a9\\classes.dex

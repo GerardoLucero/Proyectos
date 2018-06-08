@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "889992512622",
+    "firebase_url": "https://mapazonas-4e088.firebaseio.com",
+    "project_id": "mapazonas-4e088",
+    "storage_bucket": "mapazonas-4e088.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889992512622:android:c566a454ba3f6797",
+        "android_client_info": {
+          "package_name": "com.example.gerardo.viewzone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889992512622-bbgh58gi4djinnrbdttmvpualtjujdno.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gerardo.viewzone",
+            "certificate_hash": "87c36fb4dc73c35c805e76ec235af2d0125fed76"
+          }
+        },
+        {
+          "client_id": "889992512622-t1saft9f15djb04acm4tp93ol5tkho1e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoADIoQ7rNfyP3ErQdrEwJwqotUiIYNxE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889992512622-t1saft9f15djb04acm4tp93ol5tkho1e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

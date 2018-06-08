@@ -1,0 +1,9 @@
+﻿  ComparacionOrdenacion.cpp
+c:\users\gerardo\documents\visual studio 2015\projects\comparacionordenacion\comparacionordenacion\comparacionordenacion.cpp(35): warning C4474: "printf": se pasaron demasiados argumentos para la cadena de formato
+  c:\users\gerardo\documents\visual studio 2015\projects\comparacionordenacion\comparacionordenacion\comparacionordenacion.cpp(35): note: los marcadores de posición y sus parámetros esperan 0 argumentos variádicos, pero se proporcionaron 1
+c:\users\gerardo\documents\visual studio 2015\projects\comparacionordenacion\comparacionordenacion\comparacionordenacion.cpp(122): warning C4305: '=': truncamiento de '__int64' a 'int'
+c:\users\gerardo\documents\visual studio 2015\projects\comparacionordenacion\comparacionordenacion\comparacionordenacion.cpp(122): warning C4309: '=': truncamiento de valor constante
+c:\users\gerardo\documents\visual studio 2015\projects\comparacionordenacion\comparacionordenacion\comparacionordenacion.cpp(123): warning C4305: '=': truncamiento de '__int64' a 'int'
+c:\users\gerardo\documents\visual studio 2015\projects\comparacionordenacion\comparacionordenacion\comparacionordenacion.cpp(123): warning C4309: '=': truncamiento de valor constante
+  ComparacionOrdenacion.vcxproj -> C:\Users\Gerardo\Documents\Visual Studio 2015\Projects\ComparacionOrdenacion\Debug\ComparacionOrdenacion.exe
+  ComparacionOrdenacion.vcxproj -> C:\Users\Gerardo\Documents\Visual Studio 2015\Projects\ComparacionOrdenacion\Debug\ComparacionOrdenacion.pdb (Full PDB)
